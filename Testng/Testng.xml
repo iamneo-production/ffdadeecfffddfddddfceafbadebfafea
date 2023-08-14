@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="eBay Search Product Suite" verbose="1">
+  <test name="eBay Search Product Test">
+    <parameter name="browser" value="chrome" /> <!-- Replace with the desired browser name -->
+    <classes>
+      <class name="com.example.ebaysearchproject.eBaySearchProductTest" />
+    </classes>
+  </test>
+</suite>
